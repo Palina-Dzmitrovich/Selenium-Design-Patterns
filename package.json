@@ -1,0 +1,33 @@
+{
+  "name": "selenium-design-patterns",
+  "version": "1.0.0",
+  "description": "Selenium design patterns incorporation",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/specs/obligatoryFields.spec.js ./node_modules/mocha/bin/mocha --no-timeouts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Palina-Dzmitrovich/Selenium-Design-Patterns.git"
+  },
+  "keywords": [
+    "Selenium",
+    "Pattern",
+    "Page_Factory"
+  ],
+  "author": "Palina_Dzmitrovich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Palina-Dzmitrovich/Selenium-Design-Patterns/issues"
+  },
+  "homepage": "https://github.com/Palina-Dzmitrovich/Selenium-Design-Patterns#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "selenium-webdriver": "^4.0.0-alpha.8",
+    "chromedriver": "^87.0.4280.88"
+  }
+}
